@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.item{
+/* 	flex: 0 0 calc(33.33% - 10px); */
+	background-color: #f2f2f2;
+	margin: 5px;
+	padding: 50px; 
+	box-sizing: border-box;
+	text-align:left;
+}
+.item:first-child {
+  margin-left: 0; /* Remove margin from the first item */
+}
+
+.item:last-child {
+  margin-right:0; /* Remove margin from the last item */
+}
